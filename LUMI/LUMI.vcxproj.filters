@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="mesh.h" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="skybox.cpp" />
+    <ClCompile Include="shader.cpp" />
+    <ClCompile Include="mesh.cpp" />
+    <ClCompile Include="IBL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glsl\shadow_mapping_depth.vert" />
+    <None Include="glsl\shadow_mapping_depth.frag" />
+    <None Include="glsl\cube.vert" />
+    <None Include="glsl\cube.frag" />
+    <None Include="glsl\bag.frag" />
+    <None Include="glsl\bag.vert" />
+    <None Include="glsl\skybox.vert" />
+    <None Include="glsl\skybox.frag" />
+    <None Include="glsl\bag.geom" />
+    <None Include="glsl\grass.vert" />
+    <None Include="glsl\grass.frag" />
+    <None Include="glsl\debug_quad_depth.vert" />
+    <None Include="glsl\debug_quad_depth.frag" />
+    <None Include="glsl\sponza.frag" />
+    <None Include="glsl\sponza.vert" />
+    <None Include="glsl\shadow_mapping.frag" />
+    <None Include="glsl\shadow_mapping.vert" />
+    <None Include="glsl\plane.vert" />
+    <None Include="glsl\plane.frag" />
+    <None Include="glsl\g_buffer.vert" />
+    <None Include="glsl\g_buffer.frag" />
+    <None Include="glsl\deferred_shading.vert" />
+    <None Include="glsl\deferred_shading.frag" />
+    <None Include="glsl\deferred_light.vert" />
+    <None Include="glsl\deferred_light.frag" />
+    <None Include="glsl\bloom.vert" />
+    <None Include="glsl\bloom.frag" />
+    <None Include="glsl\blur.vert" />
+    <None Include="glsl\blur.frag" />
+    <None Include="glsl\ssao_geometry.vert" />
+    <None Include="glsl\ssao_geometry.frag" />
+    <None Include="glsl\ssao.vert" />
+    <None Include="glsl\ssao_lighting.frag" />
+    <None Include="glsl\ssao.frag" />
+    <None Include="glsl\ssao_blur.frag" />
+    <None Include="glsl\pbr.vert" />
+    <None Include="glsl\pbr.frag" />
+    <None Include="glsl\pbr2.vert" />
+    <None Include="glsl\pbr2.frag" />
+    <None Include="glsl\cubemap.vert" />
+    <None Include="glsl\equirectangular_to_cubemap.frag" />
+    <None Include="glsl\irradiance_convolution.frag" />
+    <None Include="glsl\prefilter.frag" />
+    <None Include="glsl\brdf.vert" />
+    <None Include="glsl\brdf.frag" />
+    <None Include="glsl\background.vert" />
+    <None Include="glsl\background.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="skybox.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="shader.h" />
+    <ClInclude Include="prefab.h" />
+  </ItemGroup>
+</Project>
